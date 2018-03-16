@@ -17,26 +17,8 @@ class Brackets extends Component {
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>John</td>
-              <td>32</td>
-              <td>WIP</td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>Mike</td>
-              <td>31</td>
-              <td>WIP</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Kevin</td>
-              <td>26</td>
-              <td>WIP</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Chris</td>
-              <td>23</td>
+              <td>Name</td>
+              <td>Score</td>
               <td>WIP</td>
             </tr>
           </tbody>
