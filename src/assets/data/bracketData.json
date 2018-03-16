@@ -16,7 +16,7 @@
         "teamScore2":"",
         "prediction":"",
         "actualWinner":"Massachusetts",
-        "baseValue":2
+        "baseValue":3
       },
       {
         "game":2,
@@ -29,7 +29,7 @@
         "teamScore2":"",
         "prediction":"",
         "actualWinner":"Ge. Washington",
-        "baseValue":2
+        "baseValue":3
       },
       {
         "game":3,
@@ -94,7 +94,7 @@
         "teamScore2":"",
         "prediction":"",
         "actualWinner":"Rhode Island",
-        "baseValue":5
+        "baseValue":3
       },
       {
         "game":8,
@@ -107,15 +107,15 @@
         "teamScore2":"",
         "prediction":"",
         "actualWinner":"St. Joseph's",
-        "baseValue":5
+        "baseValue":3
       },
       {
         "game":9,
         "time":"6:00",
         "team1Seed":2,
         "team2Seed":7,
-        "team1":"St. Bonaventure",
-        "team2":"Richmond",
+        "team1":"Winner Game",
+        "team2":"Winner Game",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
@@ -127,8 +127,8 @@
         "time":"8:30",
         "team1Seed":6,
         "team2Seed":3,
-        "team1":"St. Louis",
-        "team2":"Davidson",
+        "team1":"Winner Game",
+        "team2":"Winner Game",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
@@ -140,21 +140,34 @@
         "time":"1:00",
         "team1Seed":1,
         "team2Seed":4,
-        "team1":"Rhode Island",
-        "team2":"St. Josephs",
+        "team1":"Winner Game",
+        "team2":"Winner Game",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
         "actualWinner":"Rhode Island",
-        "baseValue":8
+        "baseValue":5
       },
       {
         "game":12,
         "time":"3:30",
         "team1Seed":2,
         "team2Seed":3,
-        "team1":"St. Bonaventure",
-        "team2":"Davidson",
+        "team1":"Winner Game",
+        "team2":"Winner Game",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"",
+        "actualWinner":"Davidson",
+        "baseValue":5
+      },
+      {
+        "game":13,
+        "time":"1:00",
+        "team1Seed":1,
+        "team2Seed":2,
+        "team1":"Winner Game",
+        "team2":"Winner Game",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
@@ -162,12 +175,25 @@
         "baseValue":8
       },
       {
-        "game":13,
+        "game":14,
         "time":"1:00",
         "team1Seed":1,
         "team2Seed":2,
-        "team1":"Rhode Island",
-        "team2":"Davidson",
+        "team1":"Winner Game",
+        "team2":"Winner Game",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"",
+        "actualWinner":"Davidson",
+        "baseValue":8
+      },
+      {
+        "game":15,
+        "time":"1:00",
+        "team1Seed":1,
+        "team2Seed":2,
+        "team1":"Winner Game",
+        "team2":"Winner Game",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",

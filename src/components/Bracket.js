@@ -20,7 +20,7 @@ const bracketData =
         "teamScore2":"",
         "prediction":"",
         "actualWinner":"Massachusetts",
-        "baseValue":2
+        "baseValue":3
       },
       {
         "game":2,
@@ -33,7 +33,7 @@ const bracketData =
         "teamScore2":"",
         "prediction":"",
         "actualWinner":"Ge. Washington",
-        "baseValue":2
+        "baseValue":3
       },
       {
         "game":3,
@@ -98,7 +98,7 @@ const bracketData =
         "teamScore2":"",
         "prediction":"",
         "actualWinner":"Rhode Island",
-        "baseValue":5
+        "baseValue":3
       },
       {
         "game":8,
@@ -111,15 +111,15 @@ const bracketData =
         "teamScore2":"",
         "prediction":"",
         "actualWinner":"St. Joseph's",
-        "baseValue":5
+        "baseValue":3
       },
       {
         "game":9,
         "time":"6:00",
         "team1Seed":2,
         "team2Seed":7,
-        "team1":"St. Bonaventure",
-        "team2":"Richmond",
+        "team1":"Winner Game",
+        "team2":"Winner Game",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
@@ -131,8 +131,8 @@ const bracketData =
         "time":"8:30",
         "team1Seed":6,
         "team2Seed":3,
-        "team1":"St. Louis",
-        "team2":"Davidson",
+        "team1":"Winner Game",
+        "team2":"Winner Game",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
@@ -144,21 +144,34 @@ const bracketData =
         "time":"1:00",
         "team1Seed":1,
         "team2Seed":4,
-        "team1":"Rhode Island",
-        "team2":"St. Josephs",
+        "team1":"Winner Game",
+        "team2":"Winner Game",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
         "actualWinner":"Rhode Island",
-        "baseValue":8
+        "baseValue":5
       },
       {
         "game":12,
         "time":"3:30",
         "team1Seed":2,
         "team2Seed":3,
-        "team1":"St. Bonaventure",
-        "team2":"Davidson",
+        "team1":"Winner Game",
+        "team2":"Winner Game",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"",
+        "actualWinner":"Davidson",
+        "baseValue":5
+      },
+      {
+        "game":13,
+        "time":"1:00",
+        "team1Seed":1,
+        "team2Seed":2,
+        "team1":"Winner Game",
+        "team2":"Winner Game",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
@@ -166,12 +179,25 @@ const bracketData =
         "baseValue":8
       },
       {
-        "game":13,
+        "game":14,
         "time":"1:00",
         "team1Seed":1,
         "team2Seed":2,
-        "team1":"Rhode Island",
-        "team2":"Davidson",
+        "team1":"Winner Game",
+        "team2":"Winner Game",
+        "teamScore1":"",
+        "teamScore2":"",
+        "prediction":"",
+        "actualWinner":"Davidson",
+        "baseValue":8
+      },
+      {
+        "game":15,
+        "time":"1:00",
+        "team1Seed":1,
+        "team2Seed":2,
+        "team1":"Winner Game",
+        "team2":"Winner Game",
         "teamScore1":"",
         "teamScore2":"",
         "prediction":"",
@@ -265,62 +291,37 @@ class Bracket extends Component {
           <div key={index}>
             <h3 className="display-4 mb-3" id={bracket.name}><span className={ bracket.name === "Official" ? "d-none" : "badge badge-secondary"}>{ this.calculatePoints(bracket) }</span> Bracket - {bracket.name} </h3>                
             <div className="row bracket-group">
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                <h4>March 7 <span className="badge badge-secondary float-right">2</span></h4>
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <h4>First Round <span className="badge badge-secondary float-right">3</span></h4>
                 <hr />
                 { this.renderGame(bracket, 1) }
                 { this.renderGame(bracket, 2) }
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                <h4>March 8 <span className="badge badge-secondary float-right">3</span></h4>
-                <hr />
                 { this.renderGame(bracket, 3) }
                 { this.renderGame(bracket, 4) }
                 { this.renderGame(bracket, 5) }
                 { this.renderGame(bracket, 6) }
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                <h4>March 9 <span className="badge badge-secondary float-right">5</span></h4>
-                <hr />
                 { this.renderGame(bracket, 7) }
                 { this.renderGame(bracket, 8) }
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <h4>Quarterfinals <span className="badge badge-secondary float-right">5</span></h4>
+                <hr />
                 { this.renderGame(bracket, 9) }
                 { this.renderGame(bracket, 10) }
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                <h4>March 10 <span className="badge badge-secondary float-right">8</span></h4>
-                <hr />
                 { this.renderGame(bracket, 11) }
                 { this.renderGame(bracket, 12) }
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                <h4>March 11 <span className="badge badge-secondary float-right">13</span></h4>
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <h4>Semifinals <span className="badge badge-secondary float-right">8</span></h4>
                 <hr />
+                
                 { this.renderGame(bracket, 13) }
+                { this.renderGame(bracket, 14) }
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                <h4>Bracket - {bracket.name}</h4>
-                <hr/>
-                <ul className={ bracket.name === "Official" ? "d-none" : "list-inline mb-0"}>
-                  <li className="list-inline-item">
-                    Max Base Points: <span className="badge badge-secondary">{ this.calculateBasePoints(bracket) }</span>
-                  </li>
-                  <li className="list-inline-item">
-                    Max Bonus Points: <span className="badge badge-secondary">{ this.calculateBonusPoints(bracket) }</span>
-                  </li>
-                  <li className="list-inline-item">
-                    Max Points: <span className="badge badge-secondary">{ this.calculateMaxPoints(bracket) }</span>
-                  </li>
-                </ul>
-                <div className="card game-winner">
-                  <div className="card-header">Winner</div>
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item">{bracket.winner}</li>
-                    <li className="list-group-item">
-                      Points: 
-                    </li>
-                  </ul>
-                </div>
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <h4>Championship <span className="badge badge-secondary float-right">13</span></h4>
+                <hr />
+                { this.renderGame(bracket, 15) }
               </div>
             </div>
             <hr />
