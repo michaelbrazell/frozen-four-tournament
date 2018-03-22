@@ -7,7 +7,7 @@ class Nav extends Component {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            A10 Tournament Bracket
+            2018 Frozen Four Tournament
           </Link>
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav">
