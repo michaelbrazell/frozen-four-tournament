@@ -4,6 +4,7 @@ import './css/App.css';
 import Nav from './components/Nav';
 import Brackets from './components/Brackets';
 import Standings from './components/Standings';
+import About from './components/About';
 import NoMatch from './components/NoMatch';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
                   <Switch location={location}>
                     <Route exact path="/" component={Brackets} />
                     <Route exact path="/standings" component={Standings} />
+                    <Route exact path="/about" component={About} />
                     <Route component={NoMatch}/>
                   </Switch>
                 </div>

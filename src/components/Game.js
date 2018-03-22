@@ -6,7 +6,6 @@ class Game extends Component {
     this.state = {
       index: this.props.index,
       gameNumber: this.props.number,
-      time: this.props.time,
       team1Seed: this.props.team1Seed,
       team2Seed: this.props.team2Seed,
       team1: this.props.team1,
@@ -67,7 +66,7 @@ class Game extends Component {
     return (
       <div className={"game-" + this.state.gameNumber + " card mb-3"}>
         <div className={ this.isCorrect(this.state.actualWinner, this.state.prediction) }>
-          <strong>Game {this.state.gameNumber}</strong> <span className="float-sm-right">{this.state.time}</span>
+          <strong>Game {this.state.gameNumber}</strong>
         </div>
         <ul className="list-group list-group-flush">
           <li className={ this.state.prediction === this.state.team1 ? "list-group-item list-group-item-info" : "list-group-item" }>
