@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Brackets extends Component {
+class Standings extends Component {
   render() {
     return (
       <div>
@@ -28,4 +28,4 @@ class Brackets extends Component {
   }
 }
 
-export default Brackets;
+export default Standings;
