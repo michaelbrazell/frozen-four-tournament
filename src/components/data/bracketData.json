@@ -958,5 +958,645 @@
         "baseValue": 13
       }
     ]
+  },
+  {
+    "name": "Dan",
+    "slug": "dan",
+    "winner": "Minnesota St.",
+    "points": 0,
+    "max-points": 0,
+    "championshipGoals": 0,
+    "gameData": [
+      {
+        "game": 1,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Saint Cloud St.",
+        "team2": "Air Force",
+        "prediction": "Saint Cloud St.",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 2,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Minnesota St.",
+        "team2": "Minnesota Duluth",
+        "prediction": "Minnesota St.",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 3,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Ohio St.",
+        "team2": "Princeton",
+        "prediction": "Ohio St.",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 4,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Denver",
+        "team2": "Penn St.",
+        "prediction": "Penn St.",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 5,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Cornell",
+        "team2": "Boston University",
+        "prediction": "Cornell",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 6,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Michigan",
+        "team2": "Northeastern",
+        "prediction": "Northeastern",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 7,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Notre Dame",
+        "team2": "Michigan Tech",
+        "prediction": "Notre Dame",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 8,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Providence",
+        "team2": "Clarkson",
+        "prediction": "Providence",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 9,
+        "team1Seed": 1,
+        "team2Seed": 2,
+        "team1": "Saint Cloud St.",
+        "team2": "Minnesota St.",
+        "prediction": "Minnesota St.",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 10,
+        "team1Seed": 1,
+        "team2Seed": 3,
+        "team1": "Ohio St.",
+        "team2": "Penn St.",
+        "prediction": "Ohio St.",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 11,
+        "team1Seed": 1,
+        "team2Seed": 3,
+        "team1": "Cornell",
+        "team2": "Northeastern",
+        "prediction": "Cornell",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 12,
+        "team1Seed": 1,
+        "team2Seed": 2,
+        "team1": "Notre Dame",
+        "team2": "Providence",
+        "prediction": "Providence",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 13,
+        "team1Seed": 2,
+        "team2Seed": 1,
+        "team1": "Minnesota St.",
+        "team2": "Ohio St.",
+        "prediction": "Minnesota St.",
+        "actualWinner": "",
+        "baseValue": 8
+      },
+      {
+        "game": 14,
+        "team1Seed": 1,
+        "team2Seed": 2,
+        "team1": "Cornell",
+        "team2": "Providence",
+        "prediction": "Providence",
+        "actualWinner": "",
+        "baseValue": 8
+      },
+      {
+        "game": 15,
+        "team1Seed": 2,
+        "team2Seed": 2,
+        "team1": "Minnesota St.",
+        "team2": "Providence",
+        "prediction": "Minnesota St.",
+        "actualWinner": "",
+        "baseValue": 13
+      }
+    ]
+  },
+  {
+    "name": "Official",
+    "slug": "official",
+    "winner": "Team Name",
+    "points": 0,
+    "max-points": 0,
+    "championshipGoals": 0,
+    "gameData": [
+      {
+        "game": 1,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Saint Cloud St.",
+        "team2": "Air Force",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 2,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Minnesota St.",
+        "team2": "Minnesota Duluth",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 3,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Ohio St.",
+        "team2": "Princeton",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 4,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Denver",
+        "team2": "Penn St.",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 5,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Cornell",
+        "team2": "Boston University",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 6,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Michigan",
+        "team2": "Northeastern",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 7,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Notre Dame",
+        "team2": "Michigan Tech",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 8,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Providence",
+        "team2": "Clarkson",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 9,
+        "team1Seed": 0,
+        "team2Seed": 0,
+        "team1": "Winner Game 1",
+        "team2": "Winner Game 2",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 10,
+        "team1Seed": 0,
+        "team2Seed": 0,
+        "team1": "Winner Game 3",
+        "team2": "Winner Game 4",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 11,
+        "team1Seed": 0,
+        "team2Seed": 0,
+        "team1": "Winner Game 5",
+        "team2": "Winner Game 6",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 12,
+        "team1Seed": 0,
+        "team2Seed": 0,
+        "team1": "Winner Game 7",
+        "team2": "Winner Game 8",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 13,
+        "team1Seed": 0,
+        "team2Seed": 0,
+        "team1": "Winner Game 9",
+        "team2": "Winner Game 10",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 8
+      },
+      {
+        "game": 14,
+        "team1Seed": 0,
+        "team2Seed": 0,
+        "team1": "Winner Game 11",
+        "team2": "Winner Game 12",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 8
+      },
+      {
+        "game": 15,
+        "team1Seed": 0,
+        "team2Seed": 0,
+        "team1": "Winner Game 13",
+        "team2": "Winner Game 14",
+        "prediction": "",
+        "actualWinner": "",
+        "baseValue": 13
+      }
+    ]
+  },
+  {
+    "name": "Andy",
+    "slug": "andy",
+    "winner": "Clarkson",
+    "points": 0,
+    "max-points": 0,
+    "championshipGoals": 5,
+    "gameData": [
+      {
+        "game": 1,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Saint Cloud St.",
+        "team2": "Air Force",
+        "prediction": "Saint Cloud St.",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 2,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Minnesota St.",
+        "team2": "Minnesota Duluth",
+        "prediction": "Minnesota St.",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 3,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Ohio St.",
+        "team2": "Princeton",
+        "prediction": "Princeton",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 4,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Denver",
+        "team2": "Penn St.",
+        "prediction": "Denver",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 5,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Cornell",
+        "team2": "Boston University",
+        "prediction": "Cornell",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 6,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Michigan",
+        "team2": "Northeastern",
+        "prediction": "Northeastern",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 7,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Notre Dame",
+        "team2": "Michigan Tech",
+        "prediction": "Notre Dame",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 8,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Providence",
+        "team2": "Clarkson",
+        "prediction": "Clarkson",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 9,
+        "team1Seed": 1,
+        "team2Seed": 2,
+        "team1": "Saint Cloud St.",
+        "team2": "Minnesota St.",
+        "prediction": "Minnesota St.",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 10,
+        "team1Seed": 4,
+        "team2Seed": 2,
+        "team1": "Princeton",
+        "team2": "Denver",
+        "prediction": "Princeton",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 11,
+        "team1Seed": 1,
+        "team2Seed": 3,
+        "team1": "Cornell",
+        "team2": "Northeastern",
+        "prediction": "Northeastern",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 12,
+        "team1Seed": 1,
+        "team2Seed": 3,
+        "team1": "Notre Dame",
+        "team2": "Clarkson",
+        "prediction": "Clarkson",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 13,
+        "team1Seed": 2,
+        "team2Seed": 4,
+        "team1": "Minnesota St.",
+        "team2": "Princeton",
+        "prediction": "Princeton",
+        "actualWinner": "",
+        "baseValue": 8
+      },
+      {
+        "game": 14,
+        "team1Seed": 3,
+        "team2Seed": 3,
+        "team1": "Northeastern",
+        "team2": "Clarkson",
+        "prediction": "Clarkson",
+        "actualWinner": "",
+        "baseValue": 8
+      },
+      {
+        "game": 15,
+        "team1Seed": 4,
+        "team2Seed": 3,
+        "team1": "Princeton",
+        "team2": "Clarkson",
+        "prediction": "Clarkson",
+        "actualWinner": "",
+        "baseValue": 13
+      }
+    ]
+  },
+  {
+    "name": "Paul",
+    "slug": "paul",
+    "winner": "Denver",
+    "points": 0,
+    "max-points": 0,
+    "championshipGoals": 0,
+    "gameData": [
+      {
+        "game": 1,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Saint Cloud St.",
+        "team2": "Air Force",
+        "prediction": "Saint Cloud St.",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 2,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Minnesota St.",
+        "team2": "Minnesota Duluth",
+        "prediction": "Minnesota Duluth",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 3,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Ohio St.",
+        "team2": "Princeton",
+        "prediction": "Ohio St.",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 4,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Denver",
+        "team2": "Penn St.",
+        "prediction": "Denver",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 5,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Cornell",
+        "team2": "Boston University",
+        "prediction": "Cornell",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 6,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Michigan",
+        "team2": "Northeastern",
+        "prediction": "Northeastern",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 7,
+        "team1Seed": 1,
+        "team2Seed": 4,
+        "team1": "Notre Dame",
+        "team2": "Michigan Tech",
+        "prediction": "Notre Dame",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 8,
+        "team1Seed": 2,
+        "team2Seed": 3,
+        "team1": "Providence",
+        "team2": "Clarkson",
+        "prediction": "Providence",
+        "actualWinner": "",
+        "baseValue": 3
+      },
+      {
+        "game": 9,
+        "team1Seed": 1,
+        "team2Seed": 3,
+        "team1": "Saint Cloud St.",
+        "team2": "Minnesota Duluth",
+        "prediction": "Saint Cloud St.",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 10,
+        "team1Seed": 1,
+        "team2Seed": 2,
+        "team1": "Ohio St.",
+        "team2": "Denver",
+        "prediction": "Denver",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 11,
+        "team1Seed": 1,
+        "team2Seed": 3,
+        "team1": "Cornell",
+        "team2": "Northeastern",
+        "prediction": "Cornell",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 12,
+        "team1Seed": 1,
+        "team2Seed": 2,
+        "team1": "Notre Dame",
+        "team2": "Providence",
+        "prediction": "Notre Dame",
+        "actualWinner": "",
+        "baseValue": 5
+      },
+      {
+        "game": 13,
+        "team1Seed": 1,
+        "team2Seed": 2,
+        "team1": "Saint Cloud St.",
+        "team2": "Denver",
+        "prediction": "Denver",
+        "actualWinner": "",
+        "baseValue": 8
+      },
+      {
+        "game": 14,
+        "team1Seed": 1,
+        "team2Seed": 1,
+        "team1": "Cornell",
+        "team2": "Notre Dame",
+        "prediction": "Notre Dame",
+        "actualWinner": "",
+        "baseValue": 8
+      },
+      {
+        "game": 15,
+        "team1Seed": 2,
+        "team2Seed": 1,
+        "team1": "Denver",
+        "team2": "Notre Dame",
+        "prediction": "Denver",
+        "actualWinner": "",
+        "baseValue": 13
+      }
+    ]
   }
 ]
