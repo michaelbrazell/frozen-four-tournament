@@ -39,7 +39,7 @@
 }
 
 @media (max-width: 576px) {
-  .bracket-group .game-1, .bracket-group .game-2, .bracket-group .game-11, .bracket-group .game-12, .bracket-group .game-13, .bracket-group .game-winner  {
+  .bracket-group .card {
     margin-top: 0;
   }
 }
