@@ -6,6 +6,7 @@ const bracketData = Data;
 class Standings extends Component {
   calculateBonus(bracketItem) {
     return (
+      // eslint-disable-next-line
       bracketItem.gameData.filter((game, index) => {
         if (game.actualWinner === game.prediction) {
           if ((game.actualWinner.length > 0) && ((game.prediction === game.team1 && game.team1Seed > game.team2Seed) || (game.prediction === game.team2 && game.team2Seed > game.team1Seed))) {
@@ -19,6 +20,7 @@ class Standings extends Component {
   }
   calculatePoints(bracketItem) {
     return (
+      // eslint-disable-next-line
       bracketItem.gameData.filter((game, index) => {
         if (game.actualWinner === game.prediction) {
           return game
@@ -30,6 +32,18 @@ class Standings extends Component {
   }
   calculateWinLoss(bracketItem) {
     // Calculate Win Loss Here
+  }
+  renderStandingsRow(bracketItem, index) {
+    if (bracketItem.slug !== "official") {
+      return (
+        <tr key={bracketItem.slug}>
+          <th scope="row">{index}</th>
+          <td>{bracketItem.name}</td>
+          <td>{this.calculatePoints(bracketItem)}</td>
+          <td>WIP</td>
+        </tr>
+      )
+    }
   }
   render() {
     return (
@@ -46,12 +60,7 @@ class Standings extends Component {
           </thead>
           <tbody>
             {bracketData.map((bracket, index) => (
-              <tr key={bracket.slug}>
-                <th scope="row">{index + 1}</th>
-                <td>{bracket.name}</td>
-                <td>{this.calculatePoints(bracket)}</td>
-                <td>WIP</td>
-              </tr>
+              this.renderStandingsRow(bracket, index) 
             ))}
           </tbody>
         </table>

@@ -10,6 +10,7 @@ class Bracket extends Component {
   }
   renderGame(bracketItem, gameNumber) {
     return (
+      // eslint-disable-next-line
       bracketItem.gameData.map( (item, index) => {
         if (item.game === gameNumber) {
           return (
@@ -38,6 +39,7 @@ class Bracket extends Component {
   }
   calculateBonusPoints(bracketItem) {
     return (
+      // eslint-disable-next-line
       bracketItem.gameData.filter( (game, index) => {
         if ( (game.prediction === game.team1 && game.team1Seed > game.team2Seed) || (game.prediction === game.team2 && game.team2Seed > game.team1Seed) ) {
           return game
@@ -52,6 +54,7 @@ class Bracket extends Component {
   }
   calculateBonus(bracketItem) {
     return (
+      // eslint-disable-next-line
       bracketItem.gameData.filter( (game, index) => {
         if ( game.actualWinner === game.prediction ) {
           if ( (game.actualWinner.length > 0) && ( (game.prediction === game.team1 && game.team1Seed > game.team2Seed) || (game.prediction === game.team2 && game.team2Seed > game.team1Seed) )  ) {
@@ -64,7 +67,9 @@ class Bracket extends Component {
     )
   }
   calculatePoints(bracketItem) {
+    // eslint-disable-next-line
     return (
+      // eslint-disable-next-line
       bracketItem.gameData.filter( (game, index) => {
         if ( game.actualWinner === game.prediction ) {
           return game
@@ -79,7 +84,7 @@ class Bracket extends Component {
       <div>
         <h3 className="display-4 mb-3" id={this.state.bracket.slug}><span className={ this.state.bracket.name === "Official" ? "d-none" : "badge badge-secondary"}>{ this.calculatePoints(this.state.bracket) }</span> Bracket - {this.state.bracket.name} </h3>                
         <div className="row bracket-group">
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
             <h4>First Round <span className="badge badge-secondary float-right">3</span></h4>
             <hr />
             { this.renderGame(this.state.bracket, 1) }
@@ -91,7 +96,7 @@ class Bracket extends Component {
             { this.renderGame(this.state.bracket, 7) }
             { this.renderGame(this.state.bracket, 8) }
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
             <h4>Quarterfinals <span className="badge badge-secondary float-right">5</span></h4>
             <hr />
             { this.renderGame(this.state.bracket, 9) }
@@ -99,14 +104,14 @@ class Bracket extends Component {
             { this.renderGame(this.state.bracket, 11) }
             { this.renderGame(this.state.bracket, 12) }
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
             <h4>Semifinals <span className="badge badge-secondary float-right">8</span></h4>
             <hr />
             
             { this.renderGame(this.state.bracket, 13) }
             { this.renderGame(this.state.bracket, 14) }
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3">
             <h4>Championship <span className="badge badge-secondary float-right">13</span></h4>
             <hr />
             { this.renderGame(this.state.bracket, 15) }
