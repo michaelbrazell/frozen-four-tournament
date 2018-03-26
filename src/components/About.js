@@ -26,9 +26,7 @@ class About extends Component {
           To view all of the changes sequentially, visit the <a href="https://github.com/michaelbrazell/frozen-four-tournament/commits/master" target="_blank" rel="noopener noreferrer">Github Repository</a>.</p>
           <p>If you notice any mistakes or have any requests, email me at <a href="mailto: michaelbrazell@gmail.com">michaelbrazell@gmail.com</a></p>
           <hr />
-          <h3>Experiments</h3>
-          
-          
+          <h3>Experiments</h3>          
         </div>
       </div>
     );
