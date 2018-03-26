@@ -37,7 +37,6 @@ class Standings extends Component {
     if (bracketItem.slug !== "official") {
       return (
         <tr key={bracketItem.slug}>
-          <th scope="row">{index}</th>
           <td>{bracketItem.name}</td>
           <td>{this.calculatePoints(bracketItem)}</td>
           <td>WIP</td>
@@ -49,10 +48,9 @@ class Standings extends Component {
     return (
       <div>
         <h2 className="mb-3">Standings</h2>
-        <table class="table">
+        <table className="table table-striped standings-table">
           <thead>
             <tr>
-              <th scope="col">#</th>
               <th scope="col">Name</th>
               <th scope="col">Points</th>
               <th>Win-Loss</th>
