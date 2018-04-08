@@ -294,7 +294,7 @@
         "team1": "Saint Cloud St.",
         "team2": "Denver",
         "prediction": "Saint Cloud St.",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 8
       },
       {
@@ -304,7 +304,7 @@
         "team1": "Northeastern",
         "team2": "Clarkson",
         "prediction": "Northeastern",
-        "actualWinner": "",
+        "actualWinner": "Notre Dame",
         "baseValue": 8
       },
       {
@@ -314,7 +314,7 @@
         "team1": "Saint Cloud St.",
         "team2": "Northeastern",
         "prediction": "Saint Cloud St.",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 13
       }
     ]
@@ -454,7 +454,7 @@
         "team1": "Saint Cloud St.",
         "team2": "Denver",
         "prediction": "Saint Cloud St.",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 8
       },
       {
@@ -464,7 +464,7 @@
         "team1": "Cornell",
         "team2": "Notre Dame",
         "prediction": "Cornell",
-        "actualWinner": "",
+        "actualWinner": "Notre Dame",
         "baseValue": 8
       },
       {
@@ -474,7 +474,7 @@
         "team1": "Saint Cloud St.",
         "team2": "Cornell",
         "prediction": "Saint Cloud St.",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 13
       }
     ]
@@ -614,7 +614,7 @@
         "team1": "Saint Cloud St.",
         "team2": "Denver",
         "prediction": "Saint Cloud St.",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 8
       },
       {
@@ -624,7 +624,7 @@
         "team1": "Northeastern",
         "team2": "Notre Dame",
         "prediction": "Notre Dame",
-        "actualWinner": "",
+        "actualWinner": "Notre Dame",
         "baseValue": 8
       },
       {
@@ -634,7 +634,7 @@
         "team1": "Saint Cloud St.",
         "team2": "Notre Dame",
         "prediction": "Saint Cloud St.",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 13
       }
     ]
@@ -774,7 +774,7 @@
         "team1": "Saint Cloud St.",
         "team2": "Denver",
         "prediction": "Denver",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 8
       },
       {
@@ -784,7 +784,7 @@
         "team1": "Northeastern",
         "team2": "Notre Dame",
         "prediction": "Notre Dame",
-        "actualWinner": "",
+        "actualWinner": "Notre Dame",
         "baseValue": 8
       },
       {
@@ -794,7 +794,7 @@
         "team1": "Denver",
         "team2": "Notre Dame",
         "prediction": "Denver",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 13
       }
     ]
@@ -934,7 +934,7 @@
         "team1": "Saint Cloud St.",
         "team2": "Denver",
         "prediction": "Denver",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 8
       },
       {
@@ -944,7 +944,7 @@
         "team1": "Northeastern",
         "team2": "Providence",
         "prediction": "Northeastern",
-        "actualWinner": "",
+        "actualWinner": "Notre Dame",
         "baseValue": 8
       },
       {
@@ -954,7 +954,7 @@
         "team1": "Denver",
         "team2": "Northeastern",
         "prediction": "Northeastern",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 13
       }
     ]
@@ -1094,7 +1094,7 @@
         "team1": "Minnesota St.",
         "team2": "Ohio St.",
         "prediction": "Minnesota St.",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 8
       },
       {
@@ -1104,7 +1104,7 @@
         "team1": "Cornell",
         "team2": "Providence",
         "prediction": "Providence",
-        "actualWinner": "",
+        "actualWinner": "Notre Dame",
         "baseValue": 8
       },
       {
@@ -1114,7 +1114,7 @@
         "team1": "Minnesota St.",
         "team2": "Providence",
         "prediction": "Minnesota St.",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 13
       }
     ]
@@ -1254,7 +1254,7 @@
         "team1": "Minnesota St.",
         "team2": "Princeton",
         "prediction": "Princeton",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 8
       },
       {
@@ -1264,7 +1264,7 @@
         "team1": "Northeastern",
         "team2": "Clarkson",
         "prediction": "Clarkson",
-        "actualWinner": "",
+        "actualWinner": "Notre Dame",
         "baseValue": 8
       },
       {
@@ -1274,7 +1274,7 @@
         "team1": "Princeton",
         "team2": "Clarkson",
         "prediction": "Clarkson",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 13
       }
     ]
@@ -1414,7 +1414,7 @@
         "team1": "Saint Cloud St.",
         "team2": "Denver",
         "prediction": "Denver",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 8
       },
       {
@@ -1424,7 +1424,7 @@
         "team1": "Cornell",
         "team2": "Notre Dame",
         "prediction": "Notre Dame",
-        "actualWinner": "",
+        "actualWinner": "Notre Dame",
         "baseValue": 8
       },
       {
@@ -1434,7 +1434,7 @@
         "team1": "Denver",
         "team2": "Notre Dame",
         "prediction": "Denver",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 13
       }
     ]
@@ -1574,7 +1574,7 @@
         "team1": "Saint Cloud St.",
         "team2": "Denver",
         "prediction": "Denver",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 8
       },
       {
@@ -1584,7 +1584,7 @@
         "team1": "Northeastern",
         "team2": "Notre Dame",
         "prediction": "Notre Dame",
-        "actualWinner": "",
+        "actualWinner": "Notre Dame",
         "baseValue": 8
       },
       {
@@ -1594,7 +1594,7 @@
         "team1": "Denver",
         "team2": "Notre Dame",
         "prediction": "Notre Dame",
-        "actualWinner": "",
+        "actualWinner": "Minnesota Duluth",
         "baseValue": 13
       }
     ]
