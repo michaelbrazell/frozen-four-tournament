@@ -39,7 +39,6 @@ class Standings extends Component {
         <tr key={bracketItem.slug}>
           <td>{bracketItem.name}</td>
           <td>{this.calculatePoints(bracketItem)}</td>
-          <td>WIP</td>
         </tr>
       )
     }
@@ -53,7 +52,6 @@ class Standings extends Component {
             <tr>
               <th scope="col">Name</th>
               <th scope="col">Points</th>
-              <th>Win-Loss</th>
             </tr>
           </thead>
           <tbody>
